@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Talent Class Recyclerview</string>
+    <string name="name">Name</string>
+    <string name="email">E-mail</string>
+    <string name="major">Major</string>
+    <string name="semester">Semester</string>
+
+    <string-array name="data_name">
+        <item>Adrian Terasta Ginting</item>
+        <item>Ethan Christopher Williams</item>
+        <item>Sophia Grace Thompson</item>
+        <item>Ava Victoria Martinez</item>
+        <item>Benjamin Harrison Lee</item>
+        <item>Noah Alexander Davis</item>
+        <item>Liam Michael Anderson</item>
+        <item>Isabella Rose Wilson</item>
+        <item>Mikael Taylor</item>
+        <item>Lucas Daniel Brown</item>
+    </string-array>
+
+    <string-array name="data_email">
+        <item>gintingjawak55@gmail.com</item>
+        <item>ethan.c.williams@gmail.com</item>
+        <item>sophia.g.thompson@gmail.com</item>
+        <item>ava.v.martinez@gmail.com</item>
+        <item>benjamin.h.lee@gmail.com</item>
+        <item>noah.a.davis@gmail.com</item>
+        <item>liam.m.anderson@gmail.com</item>
+        <item>isabella.r.wilson@gmail.com</item>
+        <item>mikael.taylor@gmail.com</item>
+        <item>lucas.d.brown@gmail.com</item>
+    </string-array>
+
+    <string-array name="data_major">
+        <item>Teknologi Informasi</item>
+        <item>Rekayasa Perangkat Lunak</item>
+        <item>Keamanan Siber</item>
+        <item>Jaringan Komputer</item>
+        <item>Pengembangan Aplikasi Mobile</item>
+        <item>Analisis Data</item>
+        <item>Kecerdasan Buatan (Artificial Intelligence)</item>
+        <item>Sistem Basis Data</item>
+        <item>Desain Grafis dan Multimedia</item>
+        <item>Teknologi Cloud Computing</item>
+    </string-array>
+
+    <string-array name="data_semester">
+        <item>8</item>
+        <item>3</item>
+        <item>9</item>
+        <item>2</item>
+        <item>6</item>
+        <item>1</item>
+        <item>1</item>
+        <item>8</item>
+        <item>5</item>
+        <item>4</item>
+    </string-array>
+
+
+    <integer-array name="data_photo">
+        <item>@drawable/talentclassbatch8_people0</item>
+        <item>@drawable/talentclassbatch8_people1</item>
+        <item>@drawable/talentclassbatch8_people2</item>
+        <item>@drawable/talentclassbatch8_people3</item>
+        <item>@drawable/talentclassbatch8_people4</item>
+        <item>@drawable/talentclassbatch8_people5</item>
+        <item>@drawable/talentclassbatch8_people6</item>
+        <item>@drawable/talentclassbatch8_people7</item>
+        <item>@drawable/talentclassbatch8_people8</item>
+        <item>@drawable/talentclassbatch8_people9</item>
+    </integer-array>
+</resources>

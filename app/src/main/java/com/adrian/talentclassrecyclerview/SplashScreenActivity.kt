@@ -13,7 +13,7 @@ class SplashScreenActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
 
-        supportActionBar?.hide()
+        // Menghilangkan ActionBar
         supportActionBar?.hide()
 
         // Mengatur jeda waktu dan pindah ke activity berikutnya

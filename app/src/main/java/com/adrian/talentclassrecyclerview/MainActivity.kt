@@ -26,12 +26,12 @@ class MainActivity : AppCompatActivity() {
         val dataMajor = resources.getStringArray(R.array.data_major)
         val dataSemester = resources.getStringArray(R.array.data_semester)
         val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
-        val listHero = ArrayList<Profile>()
+        val listProfile = ArrayList<Profile>()
         for (i in dataName.indices) {
-            val hero = Profile(dataName[i], dataEmail[i], dataMajor[i], dataSemester[i], dataPhoto.getResourceId(i, -1))
-            listHero.add(hero)
+            val profile = Profile(dataName[i], dataEmail[i], dataMajor[i], dataSemester[i], dataPhoto.getResourceId(i, -1))
+            listProfile.add(profile)
         }
-        return listHero
+        return listProfile
     }
 
     private fun showRecyclerList() {

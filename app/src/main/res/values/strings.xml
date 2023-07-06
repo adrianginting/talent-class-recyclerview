@@ -4,6 +4,7 @@
     <string name="email">E-mail</string>
     <string name="major">Major</string>
     <string name="semester">Semester</string>
+    <string name="back">Back</string>
 
     <string-array name="data_name">
         <item>Adrian Terasta Ginting</item>

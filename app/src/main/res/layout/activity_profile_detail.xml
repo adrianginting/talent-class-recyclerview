@@ -23,50 +23,102 @@
         android:layout_marginTop="25dp"
         tools:src="@tools:sample/avatars" />
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginRight="28dp"
-        android:textSize="28dp"
-        android:textStyle="bold"
-        android:text="Data Peserta"/>
+        android:background="@drawable/card_white"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/tvName"
-        android:layout_width="match_parent"
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:text="Data Peserta"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:text="@string/name"/>
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            tools:text="@string/name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:text="@string/email"/>
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:textStyle="italic"
+            tools:text="@string/email"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:text="@string/major"/>
+        <TextView
+            android:id="@+id/tvMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            tools:text="@string/major"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:text="@string/semester"/>
+        <TextView
+            android:id="@+id/tvSemester"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginBottom="18dp"
+            tools:text="@string/semester"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginRight="28dp"
-        tools:text="@string/name"/>
-
-    <TextView
-        android:id="@+id/tvEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginRight="28dp"
-        tools:text="@string/email"/>
-
-    <TextView
-        android:id="@+id/tvMajor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginRight="28dp"
-        tools:text="@string/major"/>
-
-    <TextView
-        android:id="@+id/tvSemester"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginRight="28dp"
-        tools:text="@string/semester"/>
-
+        android:text="@string/back"
+        android:layout_gravity="end"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:shadowColor="@color/purple_700"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp" />
 </LinearLayout>
